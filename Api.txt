@@ -1,0 +1,20 @@
+Guilded.RIP API
+
+Leaver (
+Request URL: https://www.guilded.gg/api/teams/wlVwQLJE/members/41oaq05m
+Request Method: DELETE
+Requirements: Team ID, User ID, Cookie
+)
+
+Joiner (
+Request URL: https://www.guilded.gg/api/invites/aE931wrk?teamId=l3Ga1RAd&
+Request Method: PUT
+Requirements: Invite ID, Team ID, Cookie
+)
+
+PFP Changer (
+Request URL: https://www.guilded.gg/api/users/me/profile/images
+Request Method: POST
+Image URL1: https://s3-us-west-2.amazonaws.com/www.guilded.gg/
+Image URL2: https://img.guildedcdn.com/
+Requirements: Image Link, Cookie
